@@ -1,0 +1,82 @@
+.recipe-card {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--body-background-color, #000000);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.recipe-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.recipe-title {
+    color: #ff9000;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.recipe-category {
+    font-style: italic;
+    color: #ccc;
+}
+
+.recipe-instructions {
+    margin-top: 15px;
+}
+
+.recipe-ingredients {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.recipe-ingredients h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+.recipe-ingredients li {
+    color: #aaa;
+}
+
+.recipe-source {
+    display: block;
+    margin-top: 15px;
+    color: var(--hub-color, #ff9000);
+    text-decoration: none;
+}
+
+.recipe-source:hover {
+    text-decoration: underline;
+}
+
+.card-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.card-details-span{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 0;
+}
+
+.card-details-span:hover{
+    cursor: pointer;
+}
+.card-details-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}

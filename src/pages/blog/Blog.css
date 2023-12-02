@@ -1,0 +1,37 @@
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-title {
+    color: #ff9000;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    border: 1px solid #ff9000;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #0e0e0e;
+}
+
+.blog-post-title {
+    color: #ff9000;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.blog-post-content {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.blog-post-date {
+    color: #888;
+    font-size: 0.9rem;
+}
